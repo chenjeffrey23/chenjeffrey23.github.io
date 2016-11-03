@@ -2,10 +2,44 @@ body {
 	background-color: #819193;
 }
 
-h1{
+header{
 	font-family: Arial;
 	font-size: 2.5em;
 	color: #FFFFFF;
+}
+h1{
+	font-family: Verdana;
+	color: whitesmoke;
+
+}
+
+p{
+	font-family: Verdana;
+	color: whitesmoke;
+}
+
+#accomplishmentsbutton{
+	padding: 1em 1em;
+	background-color: #000000;
+	opacity:0.9;
+	width: 11em;
+	color:whitesmoke;
+}
+.aactive{
+	background-color: #FFFFFF;
+	color:black;
+}
+.active {
+	background-color: #A9A3A3;
+	
+}
+#accomplishments{
+	list-style-type: none;
+	margin:0;
+	padding-left: 1em;
+	overflow: hidden;
+	color:whitesmoke;
+	
 }
 
 nav ul {
@@ -39,9 +73,11 @@ nav ul li a {
     nav ul li {float: none;}
 }
 
-div.footer{
+
+#footer{
+
+	text-align: center !important;
 	background-color: #95B7BB;
 }
-.active {
-	background-color: #BB9995;
-}
+
+/*nav bar inspired from w3schools tutorial*/
