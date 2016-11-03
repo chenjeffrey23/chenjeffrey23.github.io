@@ -1,0 +1,47 @@
+body {
+	background-color: #819193;
+}
+
+h1{
+	font-family: Arial;
+	font-size: 2.5em;
+	color: #FFFFFF;
+}
+
+nav ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #95B7BB
+}
+
+nav ul li{
+	float: left;
+	border-right: 1px solid#bbb;
+}
+
+nav ul li:last-child{
+	border-right:none;
+}
+
+nav ul li a {
+	display:block;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px){
+    nav ul li {float: none;}
+}
+
+div.footer{
+	background-color: #95B7BB;
+}
+.active {
+	background-color: #BB9995;
+}
