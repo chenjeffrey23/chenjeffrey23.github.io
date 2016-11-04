@@ -19,11 +19,27 @@
 </nav>
 <main>
 <p id="welcome">Welcome! I am Jeffrey Chen, a fourth year informatics student at the University of California, Irvine.</p>
-<div id="indexp"><img id= "indexpic" src="img/photo.jpg" alt="Jeffrey Chen profile picture" style="padding:1em 1em;float:center;"></div>
+<div id="indexp"><a id ="indexpic1" href="img/photo.jpg" title="Profile Picture"><img id= "indexpic" class="center" src="img/photo.jpg" alt="Jeffrey Chen profile picture" style="padding:1em 1em;float:center;"></a></div>
 </main>
 <div id="footer">
 	<p>Contact Information: <a href="mailto:jeffrec7@uci.edu">jeffrec7@uci.edu</a> </p></div>
 <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
 <script src='js/myscript.js'></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+<!-- Fancybox plugin -->
 </body>
 </html>

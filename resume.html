@@ -17,11 +17,27 @@
 </ul>
 </nav>
 <main>
-	<img id = "resume" img src="img/resume.jpg" alt="Jeffrey Chen resume" style="padding-top:1em;justify-content: center;">
+	<a id ="resumepic" href="img/resume.jpg" title="Resume"><img id = "resume" img src="img/resume.jpg" alt="Jeffrey Chen resume" class ="center" style="padding-top:1em;justify-content: center;"></a>
+	
 </main>
 <div id="footer">
 	<p>Contact Information: <a href="mailto:jeffrec7@uci.edu">jeffrec7@uci.edu</a> </p></div>
 <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
-<script src='js/myscipt.js'></script>
+<script src='js/myscript.js'></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
 </body>
 </html>
