@@ -14,10 +14,30 @@ h1{
 
 }
 
+img.finalpic{
+	width: 700px;
+    height: auto;
+}
+p.title{
+	font-family: Verdana;
+	font-size: 2.5em;
+	color: whitesmoke;
+}
+
+p.stitle{
+	font-family: Verdana;
+	font-size: 2em;
+	color: whitesmoke;
+}
 #welcome{
 	text-align:center;
 }
 
+p.content{
+	font-family: Verdana;
+	font-size: 1em;
+	color: whitesmoke;
+}
 p{
 	font-family: Verdana;
 	font-size: 1.5em;
